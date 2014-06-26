@@ -1,0 +1,38 @@
+body{ background:url(images/bg-grid.png) #333 fixed; color:#FFFFFF; margin:0; padding:0;}
+body,span,label,div,a,table tr td, strong, div.main-content table tr td{font-family:"Maiandra GD"; font-size:16px;}
+form{margin:0; padding:0;}
+a{color:#cc6600; text-decoration:none;}
+a:hover,a:focus,a:active{color:#FFFFFF; text-decoration:underline;}
+.radius{border-radius:5px; -webkit-border-radius:5px;; moz-border-radius:5px;}
+.shadow{box-shadow:0 0 5px 0 #111; -webkit-box-shadow:0 0 5px 0 #111; -moz-box-shadow:0 0 5px 0 #111; }
+input,select,textarea{font-family:"Trebuchet MS"; font-size:14px;}
+/*container-------------------------------------------*/
+div.container{background:url(images/bg-container.png) top repeat-x;}
+/*wrapper---------------------------------------------*/
+div.wrapper{width:980px; margin:0 auto; padding:20px 0;}
+/*top-nav---------------------------------------------*/
+div.top-nav{padding:5px;}
+div.top-nav div.search{width:60%;}
+div.top-nav div.breadchumbs{width:40%;}
+div.top-nav div{display:inline-table; text-align:left;}
+/*header-----------------------------------------------*/
+div.header{background:url(images/bg-trans-black.png); margin-top:8px; padding:5px;}
+/*main-nav--------------------------------------------*/
+div.main-nav{background:url(images/bg-menu.jpg) bottom repeat-x; height:40; padding:0 15px;}
+div.main-nav li{list-style:none; margin:0; padding:0 20px; display:inline-table;}
+div.main-nav li a span{font-family:"Maiandra GD"; font-size:24px; color:#FFFFFF; text-shadow:0 0 2px #FFFFFF; line-height:40px; }
+div.main-nav li a:hover, div.main-nav li:hover a, div.main-nav li a:hover span{color:#111; text-decoration:none; text-shadow:0 0 2px  #111;} 
+/*main-content-------------------------------------------*/
+div.main-content{margin-top:18px;}
+div.main-content div.column1{width:700px; text-align:left; padding:5px; background:url(images/bg-trans-black.png); float:left;}
+div.main-content div.column2{width:250px; text-align:left; float:right; margin-left:10px;}
+/*lefty--------------------------------------------------*/
+h3.title{font-family:"Maiandra GD"; font-size:22px; padding-left:15px; margin-top:-15px; position:absolute; text-transform:capitalize; font-weight:normal;}
+div.body{border:solid 1px #333; background:#333; padding:20px;}
+/*right---------------------------------------------------*/
+div.column2 div.box{background:url(images/bg-trans-black.png); margin-bottom:20px; padding:5px;}
+div.column2 div.box h3{font-family:"Maiandra GD"; font-size:22px; padding-left:15px; margin-top:-15px; position:absolute; text-transform:capitalize; font-weight:normal;}
+div.column2 div{border:solid thin #333; background:#333; padding:5px;}
+/*footer---------------------------------------------*/
+div.footer{ margin-left:50px;float:left; padding:20px; font-size:18px;}
+#t tr td{border:solid thin #CCCCCC;}

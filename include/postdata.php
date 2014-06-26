@@ -1,0 +1,13 @@
+<?php
+$nama=mysql_escape_string($_POST[nama]);
+$email=mysql_escape_string($_POST[email]);
+$pass=md5(mysql_escape_string($_POST[pass]));
+$jurusan=mysql_escape_string($_POST[jurusan]);
+$jnsklmn=mysql_escape_string($_POST[jnsklmn]);
+$tgllhr=mysql_escape_string($_POST[tgllhr]);
+$agama=mysql_escape_string($_POST[agama]);
+$filefoto=$_FILES[filefoto][name];
+$tmp_foto=$_FILES[filefoto][tmp_name];
+$tanggal=date('d-F-Y');
+$bio=mysql_escape_string($_POST[bio]);
+?>
